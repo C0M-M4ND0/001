@@ -1,7 +1,7 @@
-FROM node:14-alpine
+FROM node:18.16-alpine
 
 # Copy files
-COPY build /
+COPY build /build
 COPY package*.json ./
 
 # Install dependencies
