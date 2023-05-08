@@ -16,11 +16,6 @@ pipeline {
             }
         }
         stage('Build Docker Image') {
-            when {
-                expression {
-                    return currentBuild.result == 'SUCCESS'
-                }
-            }
             steps {
                 echo 'building docker image...'
                 script {
