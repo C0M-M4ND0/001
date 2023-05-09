@@ -5,7 +5,7 @@ This repository contains a React project that has been set up for the purpose of
 
 # Jenkins Pipeline
 
-This project includes a Jenkinsfile, which is used to build, test, and deploy the project. <br> The Jenkinsfile includes three stages:
+This project includes a Jenkinsfile, which is used to build, test, and Build a docker image to push it to container registry . <br> The Jenkinsfile includes three stages:
 
 - Build: This stage installs the project dependencies and builds the project using npm run build.
 
