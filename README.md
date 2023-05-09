@@ -7,7 +7,7 @@ This repository contains a React project that has been set up for the purpose of
 
 The Jenkins pipeline is a powerful tool that can be used to automate the entire software development process. It allows developers to define the steps required to build, test, and deploy their projects, and then execute those steps automatically using Jenkins.
 
-This project includes a Jenkinsfile, which is used to build, test, and deploy a Docker image of the project.<br> The Jenkinsfile consists of three stages:
+This project includes a Jenkinsfile, which is used to build, test, and create a Docker image of the project.<br> The Jenkinsfile consists of three stages:
 
 ### Build
 
