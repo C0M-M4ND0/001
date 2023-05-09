@@ -1,70 +1,22 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Jenkins Demo
 
-## Available Scripts
+This repository contains a React project that has been set up for the purpose of creating a demo about Jenkins. The project includes a Jenkinsfile, which is used to build a Docker image of the project and push it to a container registry.
 
-In the project directory, you can run:
+# Jenkins Pipeline
 
-### `npm start`
+This project includes a Jenkinsfile, which is used to build, test, and deploy the project. <br> The Jenkinsfile includes three stages:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Build: This stage installs the project dependencies and builds the project using npm run build.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Test: This stage runs the project tests using npm run test.-
 
-### `npm test`
+- Build Docker Image: This stage builds a Docker image of the project and pushes it to Docker Hub. It includes a script that authenticates with Docker Hub using credentials stored in Jenkins.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use this Jenkinsfile, you'll need to create a new pipeline job in Jenkins and point it to the Jenkinsfile in this repository. You'll also need to configure your Jenkins credentials for Docker Hub.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##### if you have any suggstion about this Demo, please let me know 😉
+ <a href="https://github.com/C0M-M4ND0" target="_blank"><img src="https://img.shields.io/badge/github-000000?style=flat-square&logo=Github&logoColor=white"/></a>
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:omarabdelhadi1337@gmail.com)](mailto:omarabdelhadi1337@gmail.com)
+[![Twitter Badge](https://img.shields.io/badge/-Twitter-1c89f0?style=flat-square&logo=twitter&logoColor=white&link=https://twitter.com/C0M_M4ND0/)](https://twitter.com/C0M_M4ND0/) 
+[![Facebook Badge](https://img.shields.io/badge/-Facebook-1c89f0?style=flat-square&logo=facebook&logoColor=white&link=https://www.facebook.com/profile.php?id=100086280574052)](https://www.facebook.com/profile.php?id=100086280574052)
